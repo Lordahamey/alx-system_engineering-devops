@@ -1,3 +1,2 @@
 #!/bin/bash
-tr -d 'c' input.txt | tr -d 'C' > output.txt
-
+tr -d 'c' -d 'C'
